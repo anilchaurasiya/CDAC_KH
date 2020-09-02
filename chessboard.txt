@@ -1,0 +1,132 @@
+Html File
+_____________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHESSBOARD</title>
+</head>
+<style>
+    html,
+    body {
+      margin: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="CHESSBOARD.CSS">
+<body>
+    <div style="border: rgba(0, 0, 0, 0.5) ; solid 20px; ">
+     <div style="display: flex;">
+      <div class="white-box"> &#9820; </div>
+      <div class="black-box"> &#9822; </div>
+      <div class="white-box"> &#9821; </div>
+      <div class="black-box"> &#9819; </div>
+      <div class="white-box"> &#9818; </div>
+      <div class="black-box"> &#9821; </div> 
+      <div class="white-box"> &#9822; </div>
+      <div class="black-box"> &#9820; </div>
+     </div>
+     <div style="display:flex">
+      <div class="black-box"> &#9823; </div>
+      <div class="white-box"> &#9823; </div>
+      <div class="black-box"> &#9823; </div>
+      <div class="white-box"> &#9823; </div>
+      <div class="black-box"> &#9823; </div>
+      <div class="white-box"> &#9823; </div>
+      <div class="black-box"> &#9823; </div>
+      <div class="white-box"> &#9823; </div>
+    </div>
+    <div  style="display: flex;">
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div> 
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      </div>
+      <div style="display: flex;">
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div> 
+      <div class="white-box"> </div>
+      </div>
+      <div style="display: flex;">
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      </div>
+      <div style="display: flex;">
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      <div class="black-box"> </div>
+      <div class="white-box"> </div>
+      </div>
+      <div style="display: flex;">
+      <div class="white-box" > &#9817; </div>
+      <div class="black-box"> &#9817; </div>
+      <div class="white-box"> &#9817; </div>
+      <div class="black-box"> &#9817; </div>
+      <div class="white-box"> &#9817; </div>
+      <div class="black-box"> &#9817; </div>
+      <div class="white-box"> &#9817; </div>
+      <div class="black-box"> &#9817; </div>
+      </div>
+      <div style="display: flex;">
+      <div class="black-box"> &#9814; </div>
+      <div class="white-box"> &#9816; </div>
+      <div class="black-box"> &#9815; </div>
+      <div class="white-box"> &#9813; </div>
+      <div class="black-box"> &#9812; </div>
+      <div class="white-box"> &#9815; </div>
+      <div class="black-box"> &#9816; </div>
+      <div class="white-box"> &#9814; </div>
+    </div>
+</body>
+</html>
+************************************************************************************************************
+
+ Css-styling
+*************************************************************************************************************
+
+ .black-box
+  {   
+     float: left;  
+     width : 80px;
+     height: 80px;
+     background: black;
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 64px;
+   }    
+   .white-box
+   {
+      float:left ;
+      width: 80px;
+      height: 80px;
+      background: white;  
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      font-size: 64px;
+   }  
